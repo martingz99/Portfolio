@@ -363,6 +363,18 @@ img {
     font-weight: 600;
 }
 
+@media screen and (max-width: 768px) {
+    .nav__menu {
+        position: fixed;
+        top: 3rem;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        background-color: var(--second-color);
+        transition: 0.5s;
+    }
+}
 
 .nav__item {
     margin-bottom: 2rem;
@@ -410,18 +422,7 @@ img {
 
 
   /* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
-    .nav__menu {
-        position: fixed;
-        top: 3rem;
-        right: -100%;
-        width: 100%;
-        height: 100%;
-        padding: 2rem;
-        background-color: var(--second-color);
-        transition: 0.5s;
-    }
-}
+
 
 @media screen and (min-width: 768px) {
     .h-grid {
